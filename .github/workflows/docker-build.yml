@@ -2,7 +2,7 @@ name: Build and Push Docker Images
 
 on:
   push:
-    branches: [ "main" ]   # main branch'e push yapıldığında çalışır
+    branches: [ "master" ]   # main branch'e push yapıldığında çalışır
 
 jobs:
   build:
