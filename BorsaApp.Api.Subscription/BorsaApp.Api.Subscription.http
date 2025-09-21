@@ -1,0 +1,6 @@
+@BorsaApp.Api.Subscription_HostAddress = http://localhost:5279
+
+GET {{BorsaApp.Api.Subscription_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

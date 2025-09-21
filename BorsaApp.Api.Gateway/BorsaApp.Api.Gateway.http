@@ -1,0 +1,6 @@
+@BorsaApp.Api.Gateway_HostAddress = http://localhost:5142
+
+GET {{BorsaApp.Api.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

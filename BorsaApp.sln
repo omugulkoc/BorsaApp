@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorsaApp.Api.Gateway", "BorsaApp.Api.Gateway\BorsaApp.Api.Gateway.csproj", "{79F5D923-9F65-479D-80C5-AC95657147D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorsaApp.Api.Users", "BorsaApp.Api.Users\BorsaApp.Api.Users.csproj", "{453827B0-8401-4A19-B5C5-AA2F65C02515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorsaApp.Api.Subscription", "BorsaApp.Api.Subscription\BorsaApp.Api.Subscription.csproj", "{C0C96872-78E2-404B-957D-35CB249997C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorsaApp.Api.Market", "BorsaApp.Api.Market\BorsaApp.Api.Market.csproj", "{D961541D-8F5E-4B7E-B574-993AE848399E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorsaApp.Api.Notification", "BorsaApp.Api.Notification\BorsaApp.Api.Notification.csproj", "{7CBD7909-1512-4B6D-9AC5-D80B0D1496ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F5D923-9F65-479D-80C5-AC95657147D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F5D923-9F65-479D-80C5-AC95657147D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F5D923-9F65-479D-80C5-AC95657147D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F5D923-9F65-479D-80C5-AC95657147D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453827B0-8401-4A19-B5C5-AA2F65C02515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453827B0-8401-4A19-B5C5-AA2F65C02515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453827B0-8401-4A19-B5C5-AA2F65C02515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453827B0-8401-4A19-B5C5-AA2F65C02515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C96872-78E2-404B-957D-35CB249997C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C96872-78E2-404B-957D-35CB249997C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C96872-78E2-404B-957D-35CB249997C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C96872-78E2-404B-957D-35CB249997C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D961541D-8F5E-4B7E-B574-993AE848399E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D961541D-8F5E-4B7E-B574-993AE848399E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D961541D-8F5E-4B7E-B574-993AE848399E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D961541D-8F5E-4B7E-B574-993AE848399E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBD7909-1512-4B6D-9AC5-D80B0D1496ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBD7909-1512-4B6D-9AC5-D80B0D1496ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBD7909-1512-4B6D-9AC5-D80B0D1496ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBD7909-1512-4B6D-9AC5-D80B0D1496ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02A8528D-D0A5-4443-907F-18947A5AB542}
+	EndGlobalSection
+EndGlobal

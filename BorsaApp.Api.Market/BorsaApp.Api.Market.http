@@ -1,0 +1,6 @@
+@BorsaApp.Api.Market_HostAddress = http://localhost:5294
+
+GET {{BorsaApp.Api.Market_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
