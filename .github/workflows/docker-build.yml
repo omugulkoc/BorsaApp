@@ -2,7 +2,7 @@ name: Build and Push Docker Images
 
 on:
   push:
-    branches: [ "master" ]   # main branch'e push yapıldığında çalışır
+    branches: [ "master" ]   # veya master ise master yaz
 
 jobs:
   build:
@@ -24,32 +24,32 @@ jobs:
         with:
           context: ./BorsaApp.Api.Users
           push: true
-          tags: ghcr.io/${{ github.repository }}/users-api:latest
+          tags: ghcr.io/omugulkoc/borsaapp/users-api:latest
 
       - name: Build and push Subscription API
         uses: docker/build-push-action@v5
         with:
           context: ./BorsaApp.Api.Subscription
           push: true
-          tags: ghcr.io/${{ github.repository }}/subscription-api:latest
+          tags: ghcr.io/omugulkoc/borsaapp/subscription-api:latest
 
       - name: Build and push Market API
         uses: docker/build-push-action@v5
         with:
           context: ./BorsaApp.Api.Market
           push: true
-          tags: ghcr.io/${{ github.repository }}/market-api:latest
+          tags: ghcr.io/omugulkoc/borsaapp/market-api:latest
 
       - name: Build and push Notification API
         uses: docker/build-push-action@v5
         with:
           context: ./BorsaApp.Api.Notification
           push: true
-          tags: ghcr.io/${{ github.repository }}/notification-api:latest
+          tags: ghcr.io/omugulkoc/borsaapp/notification-api:latest
 
       - name: Build and push Gateway
         uses: docker/build-push-action@v5
         with:
           context: ./BorsaApp.Api.Gateway
           push: true
-          tags: ghcr.io/${{ github.repository }}/gateway:latest
+          tags: ghcr.io/omugulkoc/borsaapp/gateway:latest
