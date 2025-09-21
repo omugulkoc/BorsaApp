@@ -9,7 +9,7 @@ namespace BorsaApp.Api.Users
             // Add services to the container.
 
             builder.Services.AddControllers();
-
+             
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
